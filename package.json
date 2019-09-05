@@ -2,11 +2,11 @@
   "name": "nasa-collection",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://hocsinhyeukem.github.io/nasa-collection-demo",
+  "homepage": "http://hocsinhyeukem.github.io/nasa-collection",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "start": "cross-env NODE_ENV=development PUBLIC_URL=/ webpack-dev-server",
     "prebuild": "rimraf ./build",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "cross-env NODE_ENV=production PUBLIC_URL=/nasa-collection/ webpack",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

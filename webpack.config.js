@@ -11,12 +11,11 @@ module.exports = {
 
   entry: './src/index.js',
 
-  output: {
-    filename: '[name].js',
-    chunkFilename: '[name].chunk.js',
+output: {
+    filename: isProduction ? '[name].[hash].js' : '[name].js',
+    chunkFilename: isProduction ? '[name].[chunkhash].chunk.js' : '[name].chunk.js',
     path: path.resolve(process.cwd(), 'build'),
-    publicPath: '/',
-    // publicPath: '/nasa-collection/',
+    publicPath: process.env.PUBLIC_URL,
   },
 
   module: {
@@ -48,7 +47,8 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
 
     new webpack.EnvironmentPlugin({
-      NODE_ENV: process.env.NODE_ENV,
+      NODE_ENV: JSON.stringify(process.env.NODE_ENV),
+      PUBLIC_URL: JSON.stringify(process.env.PUBLIC_URL),
     }),
 
     new HtmlWebpackPlugin({
