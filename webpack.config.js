@@ -15,8 +15,8 @@ module.exports = {
     filename: '[name].js',
     chunkFilename: '[name].chunk.js',
     path: path.resolve(process.cwd(), 'build'),
-    // publicPath: '/',
-    publicPath: '/nasa-collection/',
+    publicPath: '/',
+    // publicPath: '/nasa-collection/',
   },
 
   module: {

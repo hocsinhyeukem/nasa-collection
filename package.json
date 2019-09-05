@@ -2,7 +2,7 @@
   "name": "nasa-collection",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://hocsinhyeukem.github.io/nasa-collection",
+  "homepage": "http://hocsinhyeukem.github.io/nasa-collection-demo",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server",
     "prebuild": "rimraf ./build",
@@ -21,7 +21,7 @@
     "babel-plugin-styled-components": "1.10.6",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "cross-env": "5.2.1",
-    "gh-pages": "2.1.1",
+    "gh-pages": "^2.1.1",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
     "prop-types": "15.7.2",
