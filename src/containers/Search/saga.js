@@ -25,13 +25,13 @@ export function getLinkVideo(res){
     return link;
 }
 
-export function* makeSearchCollectionItem(payload) {
+export function* makeSearchCollectionItem({keySearch}) {
     try {
-        const { keySearch } = payload;
-            const res = yield fetch(`https://images-api.nasa.gov/search?q=${keySearch}`)
+            const key = keySearch.trim();
+            const res = yield fetch(`https://images-api.nasa.gov/search?q=${key}`)
             .then(response => response.json());
             const data = res.collection.items;
-            yield put(searchCollectionItemSuccess({data, keySearch}));
+            yield put(searchCollectionItemSuccess({data, key}));
     } catch (error) {
         console.log(error);
     }

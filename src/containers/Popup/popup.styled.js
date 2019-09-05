@@ -74,7 +74,7 @@ export const PopupInner = styled.div`
             outline: none;
             width: 100%;
             position: relative;
-            background: transparent
+            background: transparent;
             -webkit-appearance: none;
 
 
