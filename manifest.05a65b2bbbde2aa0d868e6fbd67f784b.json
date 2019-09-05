@@ -1,57 +1,57 @@
 {
   "icons": [
     {
-      "src": "/nasa-collection/icon_180x180.bc10c2c8a493f2ffffeb8eff5635a2dd.png",
+      "src": "/icon_180x180.bc10c2c8a493f2ffffeb8eff5635a2dd.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_167x167.8a0ea38c19866c148c4e072460cb893b.png",
+      "src": "/icon_167x167.8a0ea38c19866c148c4e072460cb893b.png",
       "sizes": "167x167",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_152x152.a57733764fecd70bc23fe69cd06ac3a3.png",
+      "src": "/icon_152x152.a57733764fecd70bc23fe69cd06ac3a3.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_120x120.c63d02f04597986bd8f4016688768444.png",
+      "src": "/icon_120x120.c63d02f04597986bd8f4016688768444.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_512x512.6406f1698f7d2c12f1b63688fc8c47db.png",
+      "src": "/icon_512x512.6406f1698f7d2c12f1b63688fc8c47db.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_384x384.1d9915394c71814b170b11af0bdf59fb.png",
+      "src": "/icon_384x384.1d9915394c71814b170b11af0bdf59fb.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_192x192.b6591fc55f18ae9230be4d70578bdbf7.png",
+      "src": "/icon_192x192.b6591fc55f18ae9230be4d70578bdbf7.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_144x144.5bfb0da13c2b2f0895d9adb6da66093f.png",
+      "src": "/icon_144x144.5bfb0da13c2b2f0895d9adb6da66093f.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_128x128.ad0280ff38f835c5a39d5480a7628702.png",
+      "src": "/icon_128x128.ad0280ff38f835c5a39d5480a7628702.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_96x96.21dd010e5d06ea39443e61d9da3caa5c.png",
+      "src": "/icon_96x96.21dd010e5d06ea39443e61d9da3caa5c.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/nasa-collection/icon_72x72.f65cfa8a08053df5509c3c75963059d0.png",
+      "src": "/icon_72x72.f65cfa8a08053df5509c3c75963059d0.png",
       "sizes": "72x72",
       "type": "image/png"
     }
