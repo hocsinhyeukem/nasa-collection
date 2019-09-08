@@ -16,7 +16,7 @@ export const initiaState = {
 const searchCollectionReducer = (state = initiaState, action) => {
     switch(action.type) {
         case SEARCH_COLLECTION_ITEM_SUCCESS:
-            return {...state, data: action.data.data, searchFor: action.data.keySearch, isPopupOpen: false}
+            return {...state, data: action.data.data, searchFor: action.data.key, isPopupOpen: false}
         case OPEN_VIDEO:
             return {...state, videoLink: action.link, isPopupOpen: false}
         case CLOSE_POPUP:
